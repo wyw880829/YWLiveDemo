@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		4DF0016C1DE550A600B0CC4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0016B1DE550A600B0CC4C /* main.m */; };
 		4DF0016F1DE550A600B0CC4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0016E1DE550A600B0CC4C /* AppDelegate.m */; };
-		4DF001721DE550A600B0CC4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF001711DE550A600B0CC4C /* ViewController.m */; };
-		4DF001751DE550A600B0CC4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF001731DE550A600B0CC4C /* Main.storyboard */; };
 		4DF001771DE550A600B0CC4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF001761DE550A600B0CC4C /* Assets.xcassets */; };
 		4DF0017A1DE550A600B0CC4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF001781DE550A600B0CC4C /* LaunchScreen.storyboard */; };
 		4DF001851DE550A600B0CC4C /* __DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF001841DE550A600B0CC4C /* __DemoTests.m */; };
 		4DF001901DE550A600B0CC4C /* __DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0018F1DE550A600B0CC4C /* __DemoUITests.m */; };
+		4DF001AC1DE5870800B0CC4C /* YWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF001AB1DE5870800B0CC4C /* YWTabBarViewController.m */; };
+		4DF001AF1DE5924500B0CC4C /* YWLiveListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF001AE1DE5924500B0CC4C /* YWLiveListTableViewController.m */; };
+		4DF001B21DE5925D00B0CC4C /* YWLiveOpenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF001B11DE5925D00B0CC4C /* YWLiveOpenViewController.m */; };
+		4DF001B51DE5928000B0CC4C /* YWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF001B41DE5928000B0CC4C /* YWMeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +41,6 @@
 		4DF0016B1DE550A600B0CC4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DF0016D1DE550A600B0CC4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DF0016E1DE550A600B0CC4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4DF001701DE550A600B0CC4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4DF001711DE550A600B0CC4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4DF001741DE550A600B0CC4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DF001761DE550A600B0CC4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DF001791DE550A600B0CC4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DF0017B1DE550A600B0CC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,15 @@
 		4DF0018B1DE550A600B0CC4C /* 映客DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "映客DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF0018F1DE550A600B0CC4C /* __DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __DemoUITests.m; sourceTree = "<group>"; };
 		4DF001911DE550A600B0CC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF001AA1DE5870800B0CC4C /* YWTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTabBarViewController.h; sourceTree = "<group>"; };
+		4DF001AB1DE5870800B0CC4C /* YWTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTabBarViewController.m; sourceTree = "<group>"; };
+		4DF001AD1DE5924500B0CC4C /* YWLiveListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLiveListTableViewController.h; sourceTree = "<group>"; };
+		4DF001AE1DE5924500B0CC4C /* YWLiveListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLiveListTableViewController.m; sourceTree = "<group>"; };
+		4DF001B01DE5925D00B0CC4C /* YWLiveOpenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLiveOpenViewController.h; sourceTree = "<group>"; };
+		4DF001B11DE5925D00B0CC4C /* YWLiveOpenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLiveOpenViewController.m; sourceTree = "<group>"; };
+		4DF001B31DE5928000B0CC4C /* YWMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWMeViewController.h; sourceTree = "<group>"; };
+		4DF001B41DE5928000B0CC4C /* YWMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWMeViewController.m; sourceTree = "<group>"; };
+		4DF001B61DE6A87800B0CC4C /* MyHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +111,8 @@
 			children = (
 				4DF0016D1DE550A600B0CC4C /* AppDelegate.h */,
 				4DF0016E1DE550A600B0CC4C /* AppDelegate.m */,
-				4DF001701DE550A600B0CC4C /* ViewController.h */,
-				4DF001711DE550A600B0CC4C /* ViewController.m */,
-				4DF001731DE550A600B0CC4C /* Main.storyboard */,
+				4DF001B61DE6A87800B0CC4C /* MyHeader.pch */,
+				4DF001A11DE5868700B0CC4C /* Classes */,
 				4DF001761DE550A600B0CC4C /* Assets.xcassets */,
 				4DF001781DE550A600B0CC4C /* LaunchScreen.storyboard */,
 				4DF0017B1DE550A600B0CC4C /* Info.plist */,
@@ -138,6 +145,61 @@
 				4DF001911DE550A600B0CC4C /* Info.plist */,
 			);
 			path = "映客DemoUITests";
+			sourceTree = "<group>";
+		};
+		4DF001A11DE5868700B0CC4C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4DF001A21DE5868700B0CC4C /* Common */,
+				4DF001A31DE5868700B0CC4C /* LiveList */,
+				4DF001A41DE5868700B0CC4C /* LiveOpen */,
+				4DF001A51DE5868700B0CC4C /* Me */,
+				4DF001A61DE5868700B0CC4C /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4DF001A21DE5868700B0CC4C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4DF001A31DE5868700B0CC4C /* LiveList */ = {
+			isa = PBXGroup;
+			children = (
+				4DF001AD1DE5924500B0CC4C /* YWLiveListTableViewController.h */,
+				4DF001AE1DE5924500B0CC4C /* YWLiveListTableViewController.m */,
+			);
+			path = LiveList;
+			sourceTree = "<group>";
+		};
+		4DF001A41DE5868700B0CC4C /* LiveOpen */ = {
+			isa = PBXGroup;
+			children = (
+				4DF001B01DE5925D00B0CC4C /* YWLiveOpenViewController.h */,
+				4DF001B11DE5925D00B0CC4C /* YWLiveOpenViewController.m */,
+			);
+			path = LiveOpen;
+			sourceTree = "<group>";
+		};
+		4DF001A51DE5868700B0CC4C /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				4DF001B31DE5928000B0CC4C /* YWMeViewController.h */,
+				4DF001B41DE5928000B0CC4C /* YWMeViewController.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		4DF001A61DE5868700B0CC4C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4DF001AA1DE5870800B0CC4C /* YWTabBarViewController.h */,
+				4DF001AB1DE5870800B0CC4C /* YWTabBarViewController.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,12 +264,13 @@
 		4DF0015F1DE550A600B0CC4C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YW;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = wyw;
 				TargetAttributes = {
 					4DF001661DE550A600B0CC4C = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 8UZBU69D6X;
+						DevelopmentTeam = T7B5RJ4BJD;
 						ProvisioningStyle = Automatic;
 					};
 					4DF0017F1DE550A600B0CC4C = {
@@ -251,7 +314,6 @@
 			files = (
 				4DF0017A1DE550A600B0CC4C /* LaunchScreen.storyboard in Resources */,
 				4DF001771DE550A600B0CC4C /* Assets.xcassets in Resources */,
-				4DF001751DE550A600B0CC4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +338,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DF001721DE550A600B0CC4C /* ViewController.m in Sources */,
+				4DF001B51DE5928000B0CC4C /* YWMeViewController.m in Sources */,
+				4DF001B21DE5925D00B0CC4C /* YWLiveOpenViewController.m in Sources */,
+				4DF001AC1DE5870800B0CC4C /* YWTabBarViewController.m in Sources */,
+				4DF001AF1DE5924500B0CC4C /* YWLiveListTableViewController.m in Sources */,
 				4DF0016F1DE550A600B0CC4C /* AppDelegate.m in Sources */,
 				4DF0016C1DE550A600B0CC4C /* main.m in Sources */,
 			);
@@ -314,14 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4DF001731DE550A600B0CC4C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DF001741DE550A600B0CC4C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4DF001781DE550A600B0CC4C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -427,7 +484,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8UZBU69D6X;
+				DEVELOPMENT_TEAM = T7B5RJ4BJD;
+				GCC_PREFIX_HEADER = "/Users/wyw/Documents/GitHub项目库/映客Demo/映客Demo/映客Demo/MyHeader.pch";
 				INFOPLIST_FILE = "映客Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ScanQRCode.--Demo";
@@ -439,7 +497,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8UZBU69D6X;
+				DEVELOPMENT_TEAM = T7B5RJ4BJD;
+				GCC_PREFIX_HEADER = "/Users/wyw/Documents/GitHub项目库/映客Demo/映客Demo/映客Demo/MyHeader.pch";
 				INFOPLIST_FILE = "映客Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ScanQRCode.--Demo";
@@ -516,6 +575,7 @@
 				4DF001961DE550A600B0CC4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DF001971DE550A600B0CC4C /* Build configuration list for PBXNativeTarget "映客DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +584,7 @@
 				4DF001991DE550A600B0CC4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DF0019A1DE550A600B0CC4C /* Build configuration list for PBXNativeTarget "映客DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +593,7 @@
 				4DF0019C1DE550A600B0CC4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

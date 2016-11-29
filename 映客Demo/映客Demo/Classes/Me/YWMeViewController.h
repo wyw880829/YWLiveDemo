@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YWMeViewController.h
 //  映客Demo
 //
 //  Created by wyw on 16/11/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YWMeViewController : UIViewController
 
 @end
-
